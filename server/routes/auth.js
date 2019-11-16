@@ -6,10 +6,10 @@ const withAuth = require('./withAuth');
 const secret = require('../secret');
 
 const database = sql.createConnection({
-    host: "localhost",
-    user: "test",
-    password: "test123",
-    database: "test"
+    host: "us-cdbr-iron-east-05.cleardb.net",
+    user: "b17e2c57662428",
+    password: "36c8dc80",
+    database: "heroku_61079fc7f391c01"
 });
 database.connect();
 
